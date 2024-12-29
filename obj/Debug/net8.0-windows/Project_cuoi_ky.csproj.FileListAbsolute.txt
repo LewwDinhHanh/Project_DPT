@@ -1,0 +1,52 @@
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.exe
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.deps.json
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.runtimeconfig.json
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.pdb
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Form1.resources
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Properties.Resources.resources
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.GenerateResource.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.AssemblyInfoInputs.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.AssemblyInfo.cs
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.CoreCompileInputs.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\refint\Project_cuoi_ky.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.pdb
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.genruntimeconfig.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\ref\Project_cuoi_ky.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Home.resources
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.ResolveComReference.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Emgu.CV.dll
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.AssemblyReference.cache
+C:\Users\Shinn PC\source\repos\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_.C05637A4.Up2Date
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.exe
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.deps.json
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.runtimeconfig.json
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Project_cuoi_ky.pdb
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Emgu.CV.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.AssemblyReference.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.ResolveComReference.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Form1.resources
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Home.resources
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.Properties.Resources.resources
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.GenerateResource.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.AssemblyInfoInputs.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.AssemblyInfo.cs
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.csproj.CoreCompileInputs.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_.C05637A4.Up2Date
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\refint\Project_cuoi_ky.dll
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.pdb
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\Project_cuoi_ky.genruntimeconfig.cache
+D:\Project_cuoi_ky\Project_cuoi_ky\obj\Debug\net8.0-windows\ref\Project_cuoi_ky.dll
