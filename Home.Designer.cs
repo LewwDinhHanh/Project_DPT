@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             panel1 = new Panel();
             panel4 = new Panel();
-            btnImage = new Button();
             btnImageLBP = new Button();
             btnExtractFrames = new Button();
             label3 = new Label();
@@ -40,7 +39,8 @@
             btnLoadImage = new Button();
             picBoxOriginal = new PictureBox();
             panel3 = new Panel();
-            btnProcess = new Button();
+            btnQuayLai = new Button();
+            btnExit = new Button();
             btnProcessLBP = new Button();
             lblDTT4 = new Label();
             lblDTT3 = new Label();
@@ -76,13 +76,12 @@
             panel1.Controls.Add(panel2);
             panel1.Location = new Point(1, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(930, 596);
+            panel1.Size = new Size(941, 668);
             panel1.TabIndex = 0;
             // 
             // panel4
             // 
             panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel4.Controls.Add(btnImage);
             panel4.Controls.Add(btnImageLBP);
             panel4.Controls.Add(btnExtractFrames);
             panel4.Controls.Add(label3);
@@ -92,21 +91,12 @@
             panel4.Controls.Add(picBoxOriginal);
             panel4.Location = new Point(3, 359);
             panel4.Name = "panel4";
-            panel4.Size = new Size(498, 232);
+            panel4.Size = new Size(498, 304);
             panel4.TabIndex = 2;
-            // 
-            // btnImage
-            // 
-            btnImage.Location = new Point(381, 188);
-            btnImage.Name = "btnImage";
-            btnImage.Size = new Size(85, 39);
-            btnImage.TabIndex = 7;
-            btnImage.Text = "Biến đổi ảnh";
-            btnImage.UseVisualStyleBackColor = true;
             // 
             // btnImageLBP
             // 
-            btnImageLBP.Location = new Point(381, 133);
+            btnImageLBP.Location = new Point(381, 253);
             btnImageLBP.Name = "btnImageLBP";
             btnImageLBP.Size = new Size(85, 39);
             btnImageLBP.TabIndex = 6;
@@ -116,7 +106,7 @@
             // 
             // btnExtractFrames
             // 
-            btnExtractFrames.Location = new Point(381, 79);
+            btnExtractFrames.Location = new Point(381, 192);
             btnExtractFrames.Name = "btnExtractFrames";
             btnExtractFrames.Size = new Size(85, 34);
             btnExtractFrames.TabIndex = 5;
@@ -129,7 +119,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(190, 6);
+            label3.Location = new Point(196, 6);
             label3.Name = "label3";
             label3.Size = new Size(134, 17);
             label3.TabIndex = 4;
@@ -138,9 +128,9 @@
             // picBox2
             // 
             picBox2.BorderStyle = BorderStyle.FixedSingle;
-            picBox2.Location = new Point(190, 26);
+            picBox2.Location = new Point(196, 26);
             picBox2.Name = "picBox2";
-            picBox2.Size = new Size(167, 201);
+            picBox2.Size = new Size(150, 266);
             picBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             picBox2.TabIndex = 3;
             picBox2.TabStop = false;
@@ -158,7 +148,7 @@
             // 
             // btnLoadImage
             // 
-            btnLoadImage.Location = new Point(381, 26);
+            btnLoadImage.Location = new Point(381, 128);
             btnLoadImage.Name = "btnLoadImage";
             btnLoadImage.Size = new Size(85, 34);
             btnLoadImage.TabIndex = 1;
@@ -171,7 +161,7 @@
             picBoxOriginal.BorderStyle = BorderStyle.FixedSingle;
             picBoxOriginal.Location = new Point(3, 26);
             picBoxOriginal.Name = "picBoxOriginal";
-            picBoxOriginal.Size = new Size(167, 201);
+            picBoxOriginal.Size = new Size(150, 266);
             picBoxOriginal.SizeMode = PictureBoxSizeMode.StretchImage;
             picBoxOriginal.TabIndex = 0;
             picBoxOriginal.TabStop = false;
@@ -179,7 +169,8 @@
             // panel3
             // 
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(btnProcess);
+            panel3.Controls.Add(btnQuayLai);
+            panel3.Controls.Add(btnExit);
             panel3.Controls.Add(btnProcessLBP);
             panel3.Controls.Add(lblDTT4);
             panel3.Controls.Add(lblDTT3);
@@ -191,21 +182,32 @@
             panel3.Controls.Add(picBox3);
             panel3.Location = new Point(503, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(422, 588);
+            panel3.Size = new Size(434, 660);
             panel3.TabIndex = 1;
             // 
-            // btnProcess
+            // btnQuayLai
             // 
-            btnProcess.Location = new Point(314, 544);
-            btnProcess.Name = "btnProcess";
-            btnProcess.Size = new Size(85, 39);
-            btnProcess.TabIndex = 10;
-            btnProcess.Text = "Xử lý ...";
-            btnProcess.UseVisualStyleBackColor = true;
+            btnQuayLai.Location = new Point(204, 609);
+            btnQuayLai.Name = "btnQuayLai";
+            btnQuayLai.Size = new Size(85, 39);
+            btnQuayLai.TabIndex = 17;
+            btnQuayLai.Text = "Quay lại";
+            btnQuayLai.UseVisualStyleBackColor = true;
+            btnQuayLai.Click += btnQuayLai_Click;
+            // 
+            // btnExit
+            // 
+            btnExit.Location = new Point(312, 609);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(85, 39);
+            btnExit.TabIndex = 16;
+            btnExit.Text = "Đóng";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // btnProcessLBP
             // 
-            btnProcessLBP.Location = new Point(218, 542);
+            btnProcessLBP.Location = new Point(91, 609);
             btnProcessLBP.Name = "btnProcessLBP";
             btnProcessLBP.Size = new Size(85, 39);
             btnProcessLBP.TabIndex = 9;
@@ -216,7 +218,7 @@
             // lblDTT4
             // 
             lblDTT4.AutoSize = true;
-            lblDTT4.Location = new Point(232, 489);
+            lblDTT4.Location = new Point(247, 585);
             lblDTT4.Name = "lblDTT4";
             lblDTT4.Size = new Size(71, 15);
             lblDTT4.TabIndex = 8;
@@ -225,7 +227,7 @@
             // lblDTT3
             // 
             lblDTT3.AutoSize = true;
-            lblDTT3.Location = new Point(26, 489);
+            lblDTT3.Location = new Point(26, 585);
             lblDTT3.Name = "lblDTT3";
             lblDTT3.Size = new Size(71, 15);
             lblDTT3.TabIndex = 7;
@@ -234,7 +236,7 @@
             // lblDTT2
             // 
             lblDTT2.AutoSize = true;
-            lblDTT2.Location = new Point(232, 230);
+            lblDTT2.Location = new Point(247, 288);
             lblDTT2.Name = "lblDTT2";
             lblDTT2.Size = new Size(71, 15);
             lblDTT2.TabIndex = 6;
@@ -243,7 +245,7 @@
             // lblDTT1
             // 
             lblDTT1.AutoSize = true;
-            lblDTT1.Location = new Point(26, 230);
+            lblDTT1.Location = new Point(26, 288);
             lblDTT1.Name = "lblDTT1";
             lblDTT1.Size = new Size(71, 15);
             lblDTT1.TabIndex = 5;
@@ -252,9 +254,9 @@
             // picBox6
             // 
             picBox6.BorderStyle = BorderStyle.FixedSingle;
-            picBox6.Location = new Point(232, 268);
+            picBox6.Location = new Point(247, 317);
             picBox6.Name = "picBox6";
-            picBox6.Size = new Size(167, 201);
+            picBox6.Size = new Size(150, 265);
             picBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             picBox6.TabIndex = 4;
             picBox6.TabStop = false;
@@ -262,9 +264,9 @@
             // picBox5
             // 
             picBox5.BorderStyle = BorderStyle.FixedSingle;
-            picBox5.Location = new Point(26, 268);
+            picBox5.Location = new Point(26, 316);
             picBox5.Name = "picBox5";
-            picBox5.Size = new Size(167, 201);
+            picBox5.Size = new Size(150, 266);
             picBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             picBox5.TabIndex = 3;
             picBox5.TabStop = false;
@@ -272,9 +274,9 @@
             // picBox4
             // 
             picBox4.BorderStyle = BorderStyle.FixedSingle;
-            picBox4.Location = new Point(232, 17);
+            picBox4.Location = new Point(247, 17);
             picBox4.Name = "picBox4";
-            picBox4.Size = new Size(167, 201);
+            picBox4.Size = new Size(150, 266);
             picBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             picBox4.TabIndex = 2;
             picBox4.TabStop = false;
@@ -284,7 +286,7 @@
             picBox3.BorderStyle = BorderStyle.FixedSingle;
             picBox3.Location = new Point(26, 17);
             picBox3.Name = "picBox3";
-            picBox3.Size = new Size(167, 201);
+            picBox3.Size = new Size(150, 266);
             picBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             picBox3.TabIndex = 1;
             picBox3.TabStop = false;
@@ -341,11 +343,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(932, 599);
+            ClientSize = new Size(944, 675);
             Controls.Add(panel1);
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Home";
+            Text = "LBP";
             panel1.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
@@ -380,16 +382,17 @@
         private PictureBox picBox5;
         private PictureBox picBox4;
         private PictureBox picBox3;
-        private Button btnImage;
         private Button btnImageLBP;
         private Button btnExtractFrames;
         private Label label3;
         private PictureBox picBox2;
-        private Button btnProcess;
         private Button btnProcessLBP;
         private Label lblDTT4;
         private Label lblDTT3;
         private Label lblDTT2;
         private Label lblDTT1;
+        //private Button btnChucnang;
+        private Button btnExit;
+        private Button btnQuayLai;
     }
 }

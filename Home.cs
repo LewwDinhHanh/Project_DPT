@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -133,7 +134,7 @@ namespace Project_cuoi_ky
             // Tính toán LBP cho ảnh grayscale
             Bitmap lbpImage = ComputeLBP(grayImage);
 
-            // Hiển thị ảnh LBP trong picBox1
+            // Hiển thị ảnh LBP trong picBox
             picBox2.Image = lbpImage;
         }
 
@@ -325,5 +326,30 @@ namespace Project_cuoi_ky
                 MessageBox.Show("Không có đủ ảnh để hiển thị!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            // Hiển thị hộp thoại xác nhận
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc chắn muốn thoát?",
+                "Xác nhận thoát",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            // Kiểm tra phản hồi từ người dùng
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // Thoát chương trình
+            }
+        }
+
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
     }
+
 }

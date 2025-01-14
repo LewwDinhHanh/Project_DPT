@@ -29,5 +29,19 @@
             home.Show();
             this.Hide();
         }
+
+        private void btnHOG_Click(object sender, EventArgs e)
+        {
+            Hog hog = new Hog();
+            hog.Show();
+            this.Hide();
+        }
+
+        private void btnGabor_Click(object sender, EventArgs e)
+        {
+            Gabor gabor = new Gabor();
+            gabor.Show();
+            this.Hide();
+        }
     }
 }

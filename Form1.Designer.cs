@@ -38,13 +38,10 @@
             label2 = new Label();
             label1 = new Label();
             panel3 = new Panel();
-            label9 = new Label();
-            label10 = new Label();
-            label16 = new Label();
-            label8 = new Label();
+            btnGabor = new Button();
+            btnHOG = new Button();
             button3 = new Button();
             btnBatDau = new Button();
-            label15 = new Label();
             label14 = new Label();
             label13 = new Label();
             label12 = new Label();
@@ -147,23 +144,20 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(99, 11);
+            label1.Location = new Point(77, 10);
             label1.Name = "label1";
-            label1.Size = new Size(301, 21);
+            label1.Size = new Size(341, 21);
             label1.TabIndex = 0;
-            label1.Text = "MỘT SỐ THAO TÁC CƠ BẢN VỚI VIDEO";
+            label1.Text = "Tìm kiếm hình ảnh tương đồng trong video";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(label9);
-            panel3.Controls.Add(label10);
-            panel3.Controls.Add(label16);
-            panel3.Controls.Add(label8);
+            panel3.Controls.Add(btnGabor);
+            panel3.Controls.Add(btnHOG);
             panel3.Controls.Add(button3);
             panel3.Controls.Add(btnBatDau);
-            panel3.Controls.Add(label15);
             panel3.Controls.Add(label14);
             panel3.Controls.Add(label13);
             panel3.Controls.Add(label12);
@@ -173,45 +167,29 @@
             panel3.Size = new Size(714, 217);
             panel3.TabIndex = 3;
             // 
-            // label9
+            // btnGabor
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label9.Location = new Point(350, 126);
-            label9.Name = "label9";
-            label9.Size = new Size(18, 17);
-            label9.TabIndex = 10;
-            label9.Text = "8.";
+            btnGabor.BackColor = Color.Lime;
+            btnGabor.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnGabor.Location = new Point(353, 167);
+            btnGabor.Name = "btnGabor";
+            btnGabor.Size = new Size(75, 30);
+            btnGabor.TabIndex = 8;
+            btnGabor.Text = "GABOR";
+            btnGabor.UseVisualStyleBackColor = false;
+            btnGabor.Click += btnGabor_Click;
             // 
-            // label10
+            // btnHOG
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label10.Location = new Point(351, 93);
-            label10.Name = "label10";
-            label10.Size = new Size(18, 17);
-            label10.TabIndex = 9;
-            label10.Text = "7.";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label16.Location = new Point(351, 65);
-            label16.Name = "label16";
-            label16.Size = new Size(18, 17);
-            label16.TabIndex = 8;
-            label16.Text = "6.";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label8.Location = new Point(351, 38);
-            label8.Name = "label8";
-            label8.Size = new Size(17, 17);
-            label8.TabIndex = 7;
-            label8.Text = "5.";
+            btnHOG.BackColor = Color.Lime;
+            btnHOG.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnHOG.Location = new Point(434, 167);
+            btnHOG.Name = "btnHOG";
+            btnHOG.Size = new Size(75, 30);
+            btnHOG.TabIndex = 7;
+            btnHOG.Text = "HOG";
+            btnHOG.UseVisualStyleBackColor = false;
+            btnHOG.Click += btnHOG_Click;
             // 
             // button3
             // 
@@ -233,49 +211,42 @@
             btnBatDau.Name = "btnBatDau";
             btnBatDau.Size = new Size(75, 30);
             btnBatDau.TabIndex = 5;
-            btnBatDau.Text = "Bắt đầu";
+            btnBatDau.Text = "LBP";
             btnBatDau.UseVisualStyleBackColor = false;
             btnBatDau.Click += btnBatDau_Click;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label15.Location = new Point(39, 126);
-            label15.Name = "label15";
-            label15.Size = new Size(18, 17);
-            label15.TabIndex = 4;
-            label15.Text = "4.";
             // 
             // label14
             // 
             label14.AutoSize = true;
             label14.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label14.Location = new Point(40, 93);
+            label14.ForeColor = Color.Blue;
+            label14.Location = new Point(40, 120);
             label14.Name = "label14";
-            label14.Size = new Size(17, 17);
+            label14.Size = new Size(444, 17);
             label14.TabIndex = 3;
-            label14.Text = "3.";
+            label14.Text = "3. Tìm kiếm hình ảnh tương đồng trong video dựa trên đặc trưng GABOR";
             // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label13.Location = new Point(40, 65);
+            label13.ForeColor = Color.Blue;
+            label13.Location = new Point(40, 82);
             label13.Name = "label13";
-            label13.Size = new Size(18, 17);
+            label13.Size = new Size(430, 17);
             label13.TabIndex = 2;
-            label13.Text = "2.";
+            label13.Text = "2. Tìm kiếm hình ảnh tương đồng trong video dựa trên đặc trưng HOG";
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label12.Location = new Point(42, 38);
+            label12.ForeColor = Color.Blue;
+            label12.Location = new Point(40, 45);
             label12.Name = "label12";
-            label12.Size = new Size(16, 17);
+            label12.Size = new Size(421, 17);
             label12.TabIndex = 1;
-            label12.Text = "1.";
+            label12.Text = "1. Tìm kiếm hình ảnh tương đồng trong video dựa trên đặc trưng LBP";
             // 
             // label11
             // 
@@ -283,9 +254,9 @@
             label11.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label11.Location = new Point(16, 14);
             label11.Name = "label11";
-            label11.Size = new Size(151, 17);
+            label11.Size = new Size(154, 17);
             label11.TabIndex = 0;
-            label11.Text = "Một số chức năng chính";
+            label11.Text = "Một số chức năng chính:";
             // 
             // Form1
             // 
@@ -320,14 +291,11 @@
         private Panel panel3;
         private Button button3;
         private Button btnBatDau;
-        private Label label15;
         private Label label14;
         private Label label13;
         private Label label12;
         private Label label11;
-        private Label label9;
-        private Label label10;
-        private Label label16;
-        private Label label8;
+        private Button btnGabor;
+        private Button btnHOG;
     }
 }

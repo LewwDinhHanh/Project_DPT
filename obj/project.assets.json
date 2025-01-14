@@ -21,6 +21,51 @@
           }
         }
       },
+      "FFmpeg.AutoGen/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibVLCSharp/3.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LibVLCSharp.WinForms/3.9.1": {
+        "type": "package",
+        "dependencies": {
+          "LibVLCSharp": "3.9.1"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
         "compile": {
@@ -335,6 +380,93 @@
         "lib/netstandard2.0/Emgu.CV.xml",
         "lib/xamarinios10/Emgu.CV.dll",
         "lib/xamarinios10/Emgu.CV.xml"
+      ]
+    },
+    "FFmpeg.AutoGen/7.0.0": {
+      "sha512": "RzSgOmHWzEpYzA3zl2Ac3iOdkk1ZCDgJBlRjHBIlaXHJg9aWEmPCzo0qDgEESZDNA7RaD2g4xn7yrKvT1q0Paw==",
+      "type": "package",
+      "path": "ffmpeg.autogen/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ffmpeg.autogen.7.0.0.nupkg.sha512",
+        "ffmpeg.autogen.nuspec",
+        "lib/netstandard2.0/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.0/FFmpeg.AutoGen.xml",
+        "lib/netstandard2.1/FFmpeg.AutoGen.dll",
+        "lib/netstandard2.1/FFmpeg.AutoGen.xml"
+      ]
+    },
+    "LibVLCSharp/3.9.1": {
+      "sha512": "SNvZz5bIJJ0GAaywmXyskZ+ZO42vomDUWXIo5qDpsG9x2kdQrtOuqRx/KNQDnbxBBStYXQUI7DlhzJwz/3xG6g==",
+      "type": "package",
+      "path": "libvlcsharp/3.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll",
+        "lib/monoandroid81/LibVLCSharp.dll",
+        "lib/monoandroid81/LibVLCSharp.xml",
+        "lib/net40/LibVLCSharp.dll",
+        "lib/net40/LibVLCSharp.xml",
+        "lib/net471/LibVLCSharp.dll",
+        "lib/net471/LibVLCSharp.xml",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.dll",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.pri",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.xml",
+        "lib/net6.0/LibVLCSharp.dll",
+        "lib/net6.0/LibVLCSharp.xml",
+        "lib/net8.0-android34.0/LibVLCSharp.dll",
+        "lib/net8.0-android34.0/LibVLCSharp.xml",
+        "lib/net8.0-ios18.0/LibVLCSharp.dll",
+        "lib/net8.0-ios18.0/LibVLCSharp.xml",
+        "lib/net8.0-macos15.0/LibVLCSharp.dll",
+        "lib/net8.0-macos15.0/LibVLCSharp.xml",
+        "lib/net8.0-tvos18.0/LibVLCSharp.dll",
+        "lib/net8.0-tvos18.0/LibVLCSharp.xml",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.dll",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.pri",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.xml",
+        "lib/net8.0/LibVLCSharp.dll",
+        "lib/net8.0/LibVLCSharp.xml",
+        "lib/netstandard1.1/LibVLCSharp.dll",
+        "lib/netstandard1.1/LibVLCSharp.xml",
+        "lib/netstandard2.0/LibVLCSharp.dll",
+        "lib/netstandard2.0/LibVLCSharp.xml",
+        "lib/netstandard2.1/LibVLCSharp.dll",
+        "lib/netstandard2.1/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp.dll",
+        "lib/uap10.0.18362/LibVLCSharp.pri",
+        "lib/uap10.0.18362/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp/LibVLCSharp.xr.xml",
+        "lib/xamarinios10/LibVLCSharp.dll",
+        "lib/xamarinios10/LibVLCSharp.xml",
+        "lib/xamarinmac20/LibVLCSharp.dll",
+        "lib/xamarinmac20/LibVLCSharp.xml",
+        "libvlcsharp.3.9.1.nupkg.sha512",
+        "libvlcsharp.nuspec"
+      ]
+    },
+    "LibVLCSharp.WinForms/3.9.1": {
+      "sha512": "1xYQgPLFoCPpBvHsasb9ke5GpD+s1FOtMu/pndAywb752uuT8JzFIvPy3I10t6vWXlRNk+GDOBm6RZBnVyP2ww==",
+      "type": "package",
+      "path": "libvlcsharp.winforms/3.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net40/LibVLCSharp.WinForms.dll",
+        "lib/net40/LibVLCSharp.WinForms.xml",
+        "lib/net6.0-windows7.0/LibVLCSharp.WinForms.dll",
+        "lib/net6.0-windows7.0/LibVLCSharp.WinForms.xml",
+        "lib/netcoreapp3.1/LibVLCSharp.WinForms.dll",
+        "lib/netcoreapp3.1/LibVLCSharp.WinForms.xml",
+        "libvlcsharp.winforms.3.9.1.nupkg.sha512",
+        "libvlcsharp.winforms.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
@@ -1468,7 +1600,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Emgu.CV >= 4.9.0.5494"
+      "Emgu.CV >= 4.9.0.5494",
+      "FFmpeg.AutoGen >= 7.0.0",
+      "LibVLCSharp.WinForms >= 3.9.1"
     ]
   },
   "packageFolders": {
@@ -1477,11 +1611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
+      "projectUniqueName": "D:\\DPT-PROJECT\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
       "projectName": "Project_cuoi_ky",
-      "projectPath": "D:\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
+      "projectPath": "D:\\DPT-PROJECT\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
       "packagesPath": "C:\\Users\\Shinn PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Project_cuoi_ky\\Project_cuoi_ky\\obj\\",
+      "outputPath": "D:\\DPT-PROJECT\\Project_cuoi_ky\\Project_cuoi_ky\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shinn PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1518,6 +1652,14 @@
           "Emgu.CV": {
             "target": "Package",
             "version": "[4.9.0.5494, )"
+          },
+          "FFmpeg.AutoGen": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "LibVLCSharp.WinForms": {
+            "target": "Package",
+            "version": "[3.9.1, )"
           }
         },
         "imports": [

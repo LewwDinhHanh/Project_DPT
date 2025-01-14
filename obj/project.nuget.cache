@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nXBz2ZJov0U=",
+  "dgSpecHash": "3ncH4BTQnuU=",
   "success": true,
-  "projectFilePath": "D:\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
+  "projectFilePath": "D:\\DPT-PROJECT\\Project_cuoi_ky\\Project_cuoi_ky\\Project_cuoi_ky.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shinn PC\\.nuget\\packages\\emgu.cv\\4.9.0.5494\\emgu.cv.4.9.0.5494.nupkg.sha512",
+    "C:\\Users\\Shinn PC\\.nuget\\packages\\ffmpeg.autogen\\7.0.0\\ffmpeg.autogen.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shinn PC\\.nuget\\packages\\libvlcsharp\\3.9.1\\libvlcsharp.3.9.1.nupkg.sha512",
+    "C:\\Users\\Shinn PC\\.nuget\\packages\\libvlcsharp.winforms\\3.9.1\\libvlcsharp.winforms.3.9.1.nupkg.sha512",
     "C:\\Users\\Shinn PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Shinn PC\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\Shinn PC\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
